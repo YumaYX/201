@@ -18,9 +18,3 @@ PS1='[\u@\h \w] $ '
 today=$(date +%Y-%m-%d)
 alias sandbox="cd /work/sandbox/$today"
 alias halt='sudo /usr/sbin/shutdown -h 0'
-
-# docker
-rubyversion=3.2.1
-rworkdir='/usr/src/rapp'
-which docker > /dev/null && alias dexec='docker run --rm -v $(pwd):${rworkdir} -w ${rworkdir} ruby:${rubyversion}'
-which docker > /dev/null && alias druby='docker run -it --rm -v $(pwd):${rworkdir} -w ${rworkdir} ruby:${rubyversion} ruby'
