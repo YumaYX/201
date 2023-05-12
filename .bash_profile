@@ -6,7 +6,5 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
-export PATH="/work/bin:$PATH"
-
 today=$(date +%Y-%m-%d)
-mkdir -p /work/sandbox/$today
+mkdir -p /tmp/sandbox/$today

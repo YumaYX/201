@@ -16,6 +16,6 @@ export PATH
 # User specific aliases and functions
 PS1='[\u@\h \w] $ '
 today=$(date +%Y-%m-%d)
-alias sandbox="cd /work/sandbox/$today && pwd"
+alias sandbox="cd /tmp/sandbox/$today && pwd"
 alias halt='sudo /usr/sbin/shutdown -h 0'
 
