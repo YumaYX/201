@@ -6,5 +6,4 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
-today=$(date +%Y-%m-%d)
-mkdir -p /tmp/sandbox/$today
+mkdir -p $YS_SANDBOX
