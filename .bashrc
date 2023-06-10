@@ -21,5 +21,8 @@ alias halt='sudo /usr/sbin/shutdown -h 0'
 
 export GREP_OPTIONS='--color=auto'
 
+# Ruby yjit
+#export RUBY_YJIT_ENABLE=1
+
 # Docker
 alias rocky='docker run -ti --rm rockylinux/rockylinux:9 /bin/bash'
