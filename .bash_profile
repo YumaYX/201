@@ -6,4 +6,8 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
-mkdir -p $YS_SANDBOX
+## SANDBOX
+delete_empty
+
+## WORKDIR
+mkdir_work
